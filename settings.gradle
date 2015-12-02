@@ -1,3 +1,4 @@
 rootProject.name = 'ametiste-mdwd'
 include 'mdwd-core'
+include 'mdwd-sleuth'
 
