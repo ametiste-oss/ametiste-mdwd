@@ -1,0 +1,7 @@
+dependencies {
+
+    compile project(":mdwd-core")
+
+    compile "org.ametiste.sns:sns-client-core:${snsClientVersion}"
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
