@@ -38,7 +38,7 @@ subprojects {
         hamcrestVersion = "1.3"
         snsClientVersion="0.1.0-RELEASE"
 
-        bintray_vcsUrl = 'https://github.com/ametiste-oss/ametiste-metrics.git'
+        bintray_vcsUrl = 'https://github.com/ametiste-oss/ametiste-mdwd.git'
     }
 
 
