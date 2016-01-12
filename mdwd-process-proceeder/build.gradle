@@ -1,18 +1,10 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "io.spring.gradle:dependency-management-plugin:0.5.3.RELEASE"
-    }
+plugins {
+    id "com.jfrog.bintray" version "1.3.1"
 }
-apply plugin: "io.spring.dependency-management"
 
-dependencyManagement {
-    imports {
-        mavenBom 'org.springframework.cloud:spring-cloud-sleuth:1.0.0.M2'
-    }
-}
+
+apply from: "https://raw.githubusercontent.com/ametiste-oss/ametiste-bintray-gradle/master/bintray.gradle"
+
 
 dependencies {
     compile project(":mdwd-bundle")

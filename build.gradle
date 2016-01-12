@@ -23,7 +23,7 @@ subprojects {
 
     group 'org.ametiste.mdwd'
 
-    version '0.1.0-SNAPSHOT'
+    version '0.1.0-RC'
 
     sourceCompatibility=1.8
     targetCompatibility=1.8

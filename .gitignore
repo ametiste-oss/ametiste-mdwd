@@ -13,3 +13,4 @@ hsql/
 *.ipr
 *.iml
 *.log
+gradle.properties
